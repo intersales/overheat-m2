@@ -1,0 +1,16 @@
+{
+    "name": "magento2-modules/overheat",
+    "description": "overheat- tracks user and create heat maps",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "InterSales\\Overheat\\": ""
+        }
+    }
+}

@@ -1,0 +1,4 @@
+<?php $helper = $this->helper('InterSales\Overheat\Helper\Data'); ?>
+<?php if($helper->isActive() && $helper->hasTrackingCode() ) :?>
+    <?php echo $helper->getTrackingCode(); ?>
+<?php endif; ?>
